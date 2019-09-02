@@ -1,0 +1,80 @@
+@media (max-width: 575px) {
+    .carousel-caption{
+        color: white;
+        top: 40%;
+        
+    }
+    .carousel-caption h1{
+        font-family: 'realistica_demoregular';
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}
+ @media (min-width: 576px) {
+    .carousel-caption{
+        color: white;
+        top: 40%;
+        
+    }
+    .carousel-caption h1{
+        font-family: 'realistica_demoregular';
+    }
+    .carousel-caption h1{
+        font-size: 60px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .carousel-caption{
+        color: white;
+        top: 40%;
+        
+    }
+    .carousel-caption h1{
+        font-family: 'realistica_demoregular';
+    }
+    .carousel-caption h1{
+        font-size: 80px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) { 
+    .carousel-caption{
+        color: white;
+        top: 40%;
+        
+    }
+    .carousel-caption h1{
+        font-family: 'realistica_demoregular';
+    }
+    .carousel-caption h1{
+        font-size: 100px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px) { 
+    .carousel-caption{
+        color: white;
+        top: 40%;
+        
+    }
+    .carousel-caption h1{
+        font-family: 'realistica_demoregular';
+    }
+    .carousel-caption h1{
+        font-size: 120px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+    }
+}

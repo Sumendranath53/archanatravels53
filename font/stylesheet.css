@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'realistica_demoregular';
+    src: url('realistica_demo-webfont.eot');
+    src: url('realistica_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('realistica_demo-webfont.woff2') format('woff2'),
+         url('realistica_demo-webfont.woff') format('woff'),
+         url('realistica_demo-webfont.svg#realistica_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
