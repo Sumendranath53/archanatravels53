@@ -4,28 +4,39 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="footer, address, phone, icons" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <meta name="keywords" content="footer, address, phone, icons" />
+  <meta content="img/logo.png" itemprop="image">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="font/stylesheet.css">
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/myslider.css">
-    <link rel="stylesheet" href="css/border.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/counter.css">
+    <link rel="stylesheet" href="css/mytable.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/border.css">
+    <link rel="stylesheet" href="css/zanima.css">
+    <link rel="stylesheet" href="css/scrolltop.css">
+    <link rel="stylesheet" href="css/hover.css"/>
     <link rel="stylesheet" href="css/gradiant.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat|Raleway&display=swap" rel="stylesheet">
-	<title>Archana Travels</title>
+  <title>Archana Travels</title>
+  <link rel="icon" href="img/logo.png" type="image/icon type">
     <style>
-       html,body{
+      html,body{
         padding: 0%;
         margin: 0%;
         scroll-behavior: smooth;
+        
       }
       body ::-webkit-scrollbar-track{
+         
       background-color: #F5F5F5;
       border-radius: 10px;
       }
@@ -48,33 +59,15 @@
       .bg1{
     width: 100%;
     height: 100vh;
+    background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+   
 }
-      .bg1a
-      {
-        background-image: url('img/a.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }      
-      .bg1b
-      {
-        background-image: url('img/a1.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }      
-      .bg1c
-      {
-        background-image: url('img/b.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }
     .bg3
 {
+    
     width: 100%;
     height: 120vh;
     border: solid rgb(255, 255, 255);
@@ -84,23 +77,31 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    
+
 }
 #bg5
 {
+    
     width: 100%;
     height: 70vh;
+    
     background-image: url('img/bb.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+    
+
 }
 #bg5 h1{
   font-family: 'Montserrat', sans-serif;
 }
 .container-table100{
-  background-image: url('img/aa.jpg');
-  background-size: cover;
+  background: linear-gradient(-45deg, #3ba6d8, #e24f15, #db8b12, #da1212);
+        background-size: 500% 500%;
+	      animation: gradientBG 5s ease infinite;
   background-attachment: fixed;
   background-position: center center;
 }
@@ -129,66 +130,69 @@
   background-color: rgb(237, 252, 27);
 }
 #zbtn{
-      font-size: 50px;
+      font-size: 30px;
    position: fixed;
    right: 10px;
    bottom: 10px;    
    z-index: 999999;
  }
  #ybtn{
-    font-size: 50px;
+   font-size: 30px;
    position: fixed;
    left: 10px;
-   bottom: 10px;
-   z-index: 999999;  
+   bottom: 10px;   
+  z-index: 999999; 
  }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="box-shadow: -1px 5px 73px -4px rgba(0,0,0,0.89);background-image: linear-gradient(15deg, #000000 0%, rgb(202, 23, 134) 100%);">
-		<a class="navbar-brand" href="#"style="font-family: 'realistica_demoregular';">Archana<span style="color:rgb(27,155,252)">Travels</span></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-		  <ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" href="about.html">About Us</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" href="service.html">Services</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" href="booking.html">Car Details</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link active" href="contact.html">Book Now</a>
-			  </li>
-		  </ul>
-		</div>
-	  </nav>
-    <div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="box-shadow: -1px 5px 73px -4px rgba(0,0,0,0.89);background-image: linear-gradient(15deg, #000000 20%, #df23df)">
+            <a class="navbar-brand" href="#"style="font-family: 'realistica_demoregular';"> <img src="img/logo.png" alt="" style="height: 40px; width:40px;"> Archana<span style="color:rgb(27,155,252)">Travels</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link trim" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active trim" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="booking.html">Car Details</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Book Now</a>
+                </li>
+                <li class="nav-item">
+                    <div id="google_translate_element"></div>
+                    </li>
+              </ul>
+            </div>
+            </nav>
       <div class="container-fluid" id="2" style="padding-bottom:6%; border: 2px solid rgb(255, 255, 255)">
         <div><h2 class="text-center effect-underline" style="margin-top:80px;margin-bottom:40px;color: black">Tour Details</h2></div>
          <div class="row justify-content-center">
-                 <div class="col-lg-3 col-md-5 ml-3 mr-3 mb-3" id="cardz" >
+                 <div class="col-lg-3 col-md-5 ml-3 mr-3 mb-3 wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.5s" id="cardz" >
                    <img class="card-img-top bcontainer animated2" src="img/1.jpg" alt="Card image cap" style="margin-top: 20px;">
                    <div class="card-body">
                      <h5 class="card-title"><a href="raj.html">Rajasthan Tour</a></h5>
                      <p class="card-text">The glory of the state is retained by its majestic palaces, forts and monuments. The vibrant culture and rich heritage of this princely state draw innumerable tourists from across the globe.</p>
                    </div>
+             
                  </div>
-                 <div class="col-lg-3 col-md-5 ml-3 mr-3 mb-3" id="cardz">
+                 <div class=" col-lg-3 col-md-5 ml-3 mr-3 mb-3 wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.6s"  id="cardz">
                    <img class="card-img-top bcontainer animated2" src="img/2.jpg" alt="Card image cap" style="margin-top: 20px">
                    <div class="card-body">
                      <h5 class="card-title"><a href="delhi.html">Delhi Tour</a></h5>
                      <p class="card-text">Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort.</p>
                    </div>
                  </div>
-                 <div class=" col-lg-3 col-md-5 ml-3 mr-3 mb-3" id="cardz">
+                 <div class=" col-lg-3 col-md-5 ml-3 mr-3 mb-3 wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.7s"  id="cardz">
                    <img class="card-img-top bcontainer animated2" src="img/3.jpg" alt="Card image cap" style="margin-top: 20px">
                    <div class="card-body">
                      <h5 class="card-title"><a href="jammu and kashmir.html">Kashmir tour</a></h5>
@@ -197,14 +201,15 @@
                  </div>
                </div>
                <div class="row justify-content-center">
-                     <div class="col-lg-3 col-md-5 ml-3 mr-3 mb-3" id="cardz">
+                <div class=" col-lg-3 col-md-5 ml-3 mr-3 mb-3 wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.8s"  id="cardz">
                        <img class="card-img-top bcontainer animated2" src="img/4.jpg" alt="Card image cap" style="margin-top: 20px;">
                        <div class="card-body">
                          <h5 class="card-title"><a href="Himachal.html">Himachal Pradesh Tour</a></h5>
                          <p class="card-text">Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie. Host to the Dalai Lama.</p>
                        </div>
+                 
                      </div>
-                     <div class="col-lg-3 col-md-5 ml-3 mr-3 mb-3" id="cardz">
+                     <div class=" col-lg-3 col-md-5 ml-3 mr-3 mb-3 wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.9s"  id="cardz">
                        <img class="card-img-top bcontainer animated2" src="img/5.jpg" alt="Card image cap" style="margin-top: 20px">
                        <div class="card-body">
                          <h5 class="card-title"><a href="uttarp.html">Uttar Pradesh Tour</a></h5>
@@ -214,173 +219,206 @@
                    </div>
     </div>
     <div class="container-fluid" style="padding-top:5%; padding-bottom:5%">
-      <h2 class="text-center effect-underline" style="padding-bottom:30px">Taxi Pakages</h2>
-      <div class="row justify-content-center">
-              <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                  <h3 style="text-align: center">Rs.1799/-</h4>
-                  <h4 class="text-center" style="background: #F7CA18; padding: 3%">INDIGO</h4>   
-                      <img src="img/n.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+        <h2 class="text-center effect-underline" style="padding-bottom:30px">Taxi Pakages</h2>
+        <div class="row justify-content-center">
+    
+    
+    
+                <div class="card  mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                    <h3 style="text-align: center">Rs.1799/-</h4>
+                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">INDIGO</h4>   
+                        <img src="img/n.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+                          
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                        </ul>
+                        <div class="card-body row justify-content-center">
+                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                          
+                        </div>
                       </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                        <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                        <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                      </ul>
-                      <div class="card-body row justify-content-center">
-                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                            <h3 style="text-align: center">Rs.1899/-</h4>
+                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">SWIFT DZIRE</h4>
+                            <img src="img/i.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+       
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                                  </ul>
+                                  <div class="card-body row justify-content-center">
+                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                                        
+                                      </div>
+                          
+                                                  </div>
+                          <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                    <h3 style="text-align: center">Rs.1999/-</h4>
+                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">ETIOS</h4>   
+                        <img src="img/car1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+                          
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                        </ul>
+                        <div class="card-body row justify-content-center">
+                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                          
+                        </div>
                       </div>
-                    </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                          <h3 style="text-align: center">Rs.1899/-</h4>
-                              <h4 class="text-center" style="background: #F7CA18; padding: 3%">SWIFT DZIRE</h4>
-                          <img src="img/i.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                                  <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          </div>
-                          <ul class="list-group list-group-flush">
-                                  <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                  <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                  <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                </ul>
-                                <div class="card-body row justify-content-center">
-                                      <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                    </div>
-                                                </div>
-                        <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                  <h3 style="text-align: center">Rs.1999/-</h4>
-                  <h4 class="text-center" style="background: #F7CA18; padding: 3%">ETIOS</h4>   
-                      <img src="img/car1.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                        <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                        <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                      </ul>
-                      <div class="card-body row justify-content-center">
-                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                      </div>
-                    </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                          <h3 style="text-align: center">Rs.2899/-</h4>
-                              <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA</h4>
-                          <img src="img/h.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                                  <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          </div>
-                          <ul class="list-group list-group-flush">
-                                  <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                  <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                  <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                </ul>
-                                <div class="card-body row justify-content-center">
-                                      <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                    </div>
-                                                </div>
-      </div>
-      <div class="row justify-content-center">
-              <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                  <h3 style="text-align: center">Rs.5099/-</h4>
-                  <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA CRYSTA</h4>   
-                      <img src="img/c4.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                        <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                        <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                      </ul>
-                      <div class="card-body row justify-content-center">
-                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                      </div>
-                    </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                          <h3 style="text-align: center">Rs.3899/-</h4>
-                              <h4 class="text-center" style="background: #F7CA18; padding: 3%">MARUTI ERTIGA</h4>
-                          <img src="img/m.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                                  <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          </div>
-                          <ul class="list-group list-group-flush">
-                                  <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                  <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                  <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                </ul>
-                                <div class="card-body row justify-content-center">
-                                      <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                    </div>
-                                                </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                          <h3 style="text-align: center">Rs.15000/-</h4>
-                              <h4 class="text-center" style="background: #F7CA18; padding: 3%">AC COACH 35 SEATER</h4>
-                          <img src="img/cc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                                  <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          </div>
-                          <ul class="list-group list-group-flush">
-                                  <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                  <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                  <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                </ul>
-                                <div class="card-body row justify-content-center">
-                                      <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                    </div>
-            </div>
-      </div>
-  </div>
-  <div class="container-fluid  bcontainer animated3" id="bg5">
-      <div class="row justify-content-center" style="padding-top: 150px; letter-spacing: 2px">
-        <h1 class="text-center" style="color:rgba(254, 211, 48,1.0);">WE ARE JUST A CLICK AWAY</h1>
-      </div>
-        <div class="row justify-content-center" style=" padding-top: 5%">
-          <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"><a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill mb-4 " id="mybtn"><i class="fas fa-phone-alt"></i> 9927567531</button></a></div>
-         <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"> <a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill " id="mybtn1">Book Your Cab</button></a></div>
- </div>   
- </div>
- </div>
-      <section>
-        <div class="container-fluid" id="bg6">
-            <div class="row text-center">
-                <div class="col-xs-12 col-md-3" id="cardz2">
-                    <div class="counter">
-                        <i class="fas fa-map-marked-alt stats-icon"></i>
-                        <h2 class="timer count-title count-number">100+</h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">Cities to Visit</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="far fa-thumbs-up stats-icon"></i>
-                        <h2 class="timer count-title count-number">21000
-                        </h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">+ Satisfied Customers</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="fas fa-undo-alt stats-icon"></i>
-                        <h2 class="timer count-title count-number">55</h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">% Return Customers</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-3">
-                    <div class="counter">
-                        <i class="fas fa-car stats-icon"></i>
-                        <h2 class="timer count-title count-number">32000</h2>
-                        <div class="stats-line-black"></div>
-                        <p class="stats-text">Rides Completed</p>
-                    </div>
-                </div>
-            </div>
+                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                            <h3 style="text-align: center">Rs.2899/-</h4>
+                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA</h4>
+                            <img src="img/h.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+       
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                                  </ul>
+                                  <div class="card-body row justify-content-center">
+                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                                        
+                                      </div>
+                          
+                                                  </div>
+                       
         </div>
-    </section>
+     
+    
+        <div class="row justify-content-center">
+    
+    
+    
+                <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                    <h3 style="text-align: center">Rs.5099/-</h4>
+                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA CRYSTA</h4>   
+                        <img src="img/c4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+                          
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                        </ul>
+                        <div class="card-body row justify-content-center">
+                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                          
+                        </div>
+                      </div>
+                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                            <h3 style="text-align: center">Rs.3899/-</h4>
+                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">MARUTI ERTIGA</h4>
+                            <img src="img/m.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+       
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                                  </ul>
+                                  <div class="card-body row justify-content-center">
+                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                                        
+                                      </div>
+                          
+                                                  </div>
+                   
+                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
+                            <h3 style="text-align: center">Rs.15000/-</h4>
+                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">AC COACH 35 SEATER</h4>
+                            <img src="img/cc.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
+       
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
+                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+                                  </ul>
+                                  <div class="card-body row justify-content-center">
+                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
+                                        
+                                      </div>
+                          
+                                                  </div>
+                       
+        </div>
+    </div>
+    
+      <div class="container-fluid  bcontainer animated3" id="bg5">
+             <div class="row justify-content-center" style="padding-top: 150px; letter-spacing: 2px">
+               <h1 class="text-center" style="color:rgba(254, 211, 48,1.0);">WE ARE JUST A CLICK AWAY</h1>
+             </div>
+            
+               <div class="row justify-content-center" style=" padding-top: 5%">
+                 <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"><a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill mb-4 " id="mybtn"><i class="fas fa-phone-alt"></i> 9927567531</button></a></div>
+                <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"> <a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill " id="mybtn1">Book Your Cab</button></a></div>
+              
+        </div>   
+        </div>
+               
+        </div>
+        <section>
+            <div class="container-fluid" id="bg6">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-md-3">
+                        <div class="counter">
+                            <i class="fas fa-map-marked-alt stats-icon"></i>
+                            <h2 class="timer count-title count-number">100+</h2>
+                            <div class="stats-line-black"></div>
+                            <p class="stats-text">Cities to Visit</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <div class="counter">
+                            <i class="far fa-thumbs-up stats-icon"></i>
+                            <h2 class="timer count-title count-number">21000
+                            </h2>
+                            <div class="stats-line-black"></div>
+                            <p class="stats-text">+ Satisfied Customers</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <div class="counter">
+                            <i class="fas fa-undo-alt stats-icon"></i>
+                            <h2 class="timer count-title count-number">55</h2>
+                            <div class="stats-line-black"></div>
+                            <p class="stats-text">% Return Customers</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <div class="counter">
+                            <i class="fas fa-car stats-icon"></i>
+                            <h2 class="timer count-title count-number">32000</h2>
+                            <div class="stats-line-black"></div>
+                            <p class="stats-text">Rides Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
        <div class="container-fluid gradiant1" style="padding-top:5%;">
         <h1 class="text-center effect-underline2" style="margin-bottom:5%;color: #fff;">Our Office</h1>
          <div class="row">
@@ -389,68 +427,84 @@
          </div>
         </div>  
         <div class="myfoot ">
-          <!-- FOOTER START -->
-        <div class="footer">
-          <div class="contain">
-          <div class="col">
-            <h1>Archana Travels</h1>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Book Now</a></li>
-              <li><a href="service.html">Service</a></li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Services</h1>
-            <ul>
-              <li><a href="tour.html">Tour Service</a></li>
-              <li><a href="booking.html">Car Service</a></li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Tour Service</h1>
-            <ul>
-              <li><a href="tour.html">Packages</a></li>
-            </ul>
-          </div>
-          <div class="col">
-              <h1>Whatsapp</h1>
+            <!-- FOOTER START -->
+          <div class="footer">
+            <div class="contain">
+            <div class="col">
+              <h1>Archana Travels</h1>
               <ul>
-                <li><a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2); font-size: 30px"></i></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Book Now</a></li>
+                <li><a href="service.html">Service</a></li>
               </ul>
             </div>
-          <div class="col">
-            <h1>Contact</h1>
-            <ul>
-              <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
-              <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
-              <li><a href="https://www.kishansharma.sharma65@gmail.com"><i class="fas fa-envelope"></i> Mail</a></li>
-            </ul>
+            <div class="col">
+              <h1>Services</h1>
+              <ul>
+                <li><a href="tour.html">Tour Service</a></li>
+                <li><a href="booking.html">Car Service</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Tour Service</h1>
+              <ul>
+                <li><a href="tour.html">Packages</a></li>
+              </ul>
+            </div>
+            <div class="col">
+                <h1>Whatsapp</h1>
+                <ul>
+                  <li><a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2); font-size: 30px"></i></a></li>
+                </ul>
+              </div>
+            <div class="col">
+              <h1>Contact</h1>
+              <ul>
+                <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
+                <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
+                
+              </ul>
+            </div>
+            <div class="col social">
+              <h1>Social links</h1>
+              <ul>
+                <li><a href="https://www.facebook.com/kishan.sharma.3998263"><i class="fab fa-facebook-f" style="font-size: 25px"></i></a></li>
+                <li> <a href="https://twitter.com/kishansharma65?s=08"><i class="fab fa-twitter" style="font-size: 25px"></i></a></li>
+                <li><a href=" https://instagram.com/KISHAN.SHARMA.3998263"><i class="fab fa-instagram" style="font-size: 25px"></i></a></li>
+              </ul>
+            </div>
+          <div class="clearfix"></div>
           </div>
-          <div class="col social">
-            <h1>Social links</h1>
-            <ul>
-              <li><a href="https://www.facebook.com/kishan.sharma.3998263"><i class="fab fa-facebook-f" style="font-size: 25px"></i></a></li>
-              <li> <a href="https://twitter.com/kishansharma65?s=08"><i class="fab fa-twitter" style="font-size: 25px"></i></a></li>
-              <li><a href=" https://instagram.com/KISHAN.SHARMA.3998263"><i class="fab fa-instagram" style="font-size: 25px"></i></a></li>
-            </ul>
           </div>
-        <div class="clearfix"></div>
-        </div>
-        </div>
-        <!-- END OF FOOTER -->
-        </div>
-        <button id="zbtn">
-          <a href="#" id="tbtn"><i class="fas fa-chevron-circle-up"></i></a>
-       </button>
-     </div>
-     <div>
-         <button id="ybtn">
-             <a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2)"></i></a>
-             
+          <p style="color: rgb(102, 102, 102);text-align: center">All CopyRight &copy; 2019 Reserved By <a href="https://sunshine-web.business.site">SunShine</a></p>
+          <!-- END OF FOOTER -->
+          </div>
+          <button id="zbtn">
+            <a href="#" id="tbtn"><i class="fas fa-chevron-circle-up"></i></a>
          </button>
        </div>
+       <div>
+           <button id="ybtn">
+               <a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2)"></i></a>
+               
+           </button>
+         </div>
+  </div>
+
+<script src="js/form.js"></script>
+<script src="js/wow.js"></script>
+<script>
+  new WOW().init();
+  </script>
+<script> 
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+    </script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

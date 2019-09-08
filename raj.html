@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/border.css">
+    <link rel="stylesheet" href="css/zanima.css">
     <link rel="stylesheet" href="css/scrolltop.css">
     <link rel="stylesheet" href="css/hover.css"/>
     <link rel="stylesheet" href="css/gradiant.css">
@@ -29,6 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat|Raleway&display=swap" rel="stylesheet">
     
 	<title>Archana Travels</title>
+  <link rel="icon" href="img/logo.png" type="image/icon type">
     <style>
       html,body{
         padding: 0%;
@@ -115,8 +117,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 .container-table100{
-  background-image: url('img/aa.jpg');
-  background-size: cover;
+  background: linear-gradient(-45deg, #3ba6d8, #e24f15, #db8b12, #da1212);
+        background-size: 500% 500%;
+	      animation: gradientBG 5s ease infinite;
   background-attachment: fixed;
   background-position: center center;
 }
@@ -145,26 +148,24 @@
   background-color: rgb(237, 252, 27);
 }
 #zbtn{
-      font-size: 50px;
+      font-size: 30px;
    position: fixed;
    right: 10px;
    bottom: 10px;    
    z-index: 999999;
-   
  }
  #ybtn{
-    font-size: 50px;
+    font-size: 30px;
    position: fixed;
    left: 10px;
    bottom: 10px;
    z-index: 999999;  
-   
  }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="box-shadow: -1px 5px 73px -4px rgba(0,0,0,0.89);background-image: linear-gradient(15deg, #000000d0 0%, #00000063)">
-            <a class="navbar-brand" href="#"style="font-family: 'realistica_demoregular';">Archana<span style="color:rgb(27,155,252)">Travels</span></a>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="box-shadow: -1px 5px 73px -4px rgba(0,0,0,0.89);background-image: linear-gradient(15deg, #000000d0 0%, #00000063)">
+            <a class="navbar-brand" href="#"style="font-family: 'realistica_demoregular';"> <img src="img/logo.png" alt="" style="height: 40px; width:40px;"> Archana<span style="color:rgb(27,155,252)">Travels</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -188,10 +189,13 @@
                 <li class="nav-item">
                 <a class="nav-link active" href="contact.html">Book Now</a>
                 </li>
+                <li class="nav-item">
+                    <div id="google_translate_element"></div>
+                    </li>
               </ul>
             </div>
             </nav>
-       <div class="bd-example">
+       <div class="bd-example wow fadeInUp" data-wow-iteration="1" data-wow-delay="0.5s">
         
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
@@ -279,7 +283,7 @@
             <div class="col">
               <h1>Archana Travels</h1>
               <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Book Now</a></li>
                 <li><a href="service.html">Service</a></li>
@@ -301,7 +305,7 @@
             <div class="col">
                 <h1>Whatsapp</h1>
                 <ul>
-                  <li><a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2); font-size: 30px"></i></a></li>
+                  <li><a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2); font-size: 30px"></i></a></li>
                 </ul>
               </div>
             <div class="col">
@@ -309,7 +313,7 @@
               <ul>
                 <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
                 <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
-                <li><a href="https://www.kishansharma.sharma65@gmail.com"><i class="fas fa-envelope"></i> Mail</a></li>
+                
               </ul>
             </div>
             <div class="col social">
@@ -323,6 +327,7 @@
           <div class="clearfix"></div>
           </div>
           </div>
+          <p style="color: rgb(102, 102, 102);text-align: center">All CopyRight &copy; 2019 Reserved By <a href="https://sunshine-web.business.site">SunShine</a></p>
           <!-- END OF FOOTER -->
           </div>
           <button id="zbtn">
@@ -331,12 +336,26 @@
        </div>
        <div>
            <button id="ybtn">
-               <a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2)"></i></a>
+               <a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2)"></i></a>
                
            </button>
          </div>
 
+    </div>
+
 <script src="js/form.js"></script>
+<script src="js/wow.js"></script>
+<script>
+  new WOW().init();
+  </script>
+<script> 
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+    </script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
