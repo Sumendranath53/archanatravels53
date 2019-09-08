@@ -1,798 +1,590 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="footer, address, phone, icons" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/footer.css">
-	<link rel="stylesheet" href="font/stylesheet.css">
-    <link rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" href="css/table.css">
-    <link rel="stylesheet" href="css/counter.css">
-    <link rel="stylesheet" href="css/mytable.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/border.css">
-    <link rel="stylesheet" href="css/gbg.css">
-    <link rel="stylesheet" href="css/gradiant.css">
-    <link rel="stylesheet" type="text/css" href="css/map.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat|Raleway&display=swap" rel="stylesheet">
-	<title>Archana Travels</title>
-    <style>
-       html,body{
-        padding: 0%;
-        margin: 0%;
-        scroll-behavior: smooth;
-        
-      }
-      body ::-webkit-scrollbar-track{
-         
-      background-color: #F5F5F5;
-      border-radius: 10px;
-      }
-      body::-webkit-scrollbar{
-        width: 10px;
-	background-color: #F5F5F5;
-      }
-      body::-webkit-scrollbar-thumb{
-        border-radius: 10px;
-	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.44, rgb(21, 118, 230)),
-									   color-stop(0.72, rgb(13, 17, 236)),
-									   color-stop(0.86, rgb(21, 118, 230)));
-      }
-      *{
-        box-sizing: border-box;
-      }
-      .bg1{
-    width: 100%;
-    height: 100vh;
-   
-}
-      .bg1a
-      {
-        background-image: url('img/a.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }      
-      .bg1b
-      {
-        background-image: url('img/a1.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }      
-      .bg1c
-      {
-        background-image: url('img/b.jpg');
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-      }
-    .bg3
-{
-    
-    width: 100%;
-    height: 120vh;
-    border: solid rgb(255, 255, 255);
-    background-image: url('img/aa.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    
-
-}
-#bg5
-{
-    
-    width: 100%;
-    height: 70vh;
-    
-    background-image: url('img/bb.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
-
-}
-#bg5 h1{
-  font-family: 'Montserrat', sans-serif;
-}
-.container-table100{
-  background-image: url('img/aa.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-}
-#mybtn{
-  width: 220px;
-  color: rgb(0, 0, 0);
-  background-color: rgba(254, 211, 48,1.0);
-  transition: 0.5s;
-}
-#mybtn1{
-  width: 220px;
-  color: rgb(255, 255, 255);
-  background-color: rgba(27, 156, 252,1.0);
-  transition: 0.5s;
-  
-}
-#mybtn:hover {
-  transition: 1000;
-  background-color: rgba(27, 156, 252,1.0);
-  color: black;
-  
-}
-#mybtn1:hover {
-  transition: 1000;
-  color: black;
-  background-color: rgb(237, 252, 27);
-}
-#zbtn{
-      font-size: 50px;
-   position: fixed;
-   right: 10px;
-   bottom: 10px;    
-   z-index: 999999;
-   
- }
- #ybtn{
-    font-size: 50px;
-   position: fixed;
-   left: 10px;
-   bottom: 10px;
-   z-index: 999999;  
-   
- }
-    </style>
+<meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name=keywords content="footer, address, phone, icons" />
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+<link rel=stylesheet href=css/footer.css>
+<link rel=stylesheet href=font/stylesheet.css>
+<link rel=stylesheet href=css/hover.css>
+<link rel=stylesheet href=css/table.css>
+<link rel=stylesheet href=css/counter.css>
+<link rel=stylesheet href=css/mytable.css>
+<link rel=stylesheet href=css/footer.css>
+<link rel=stylesheet href=css/border.css>
+<link rel=stylesheet href=css/zanima.css>
+<link rel=stylesheet href=css/gbg.css>
+<link rel=stylesheet href=css/gradiant.css>
+<link rel=stylesheet type=text/css href="css/map.css"/>
+<link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel=stylesheet>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel=stylesheet>
+<link href="https://fonts.googleapis.com/css?family=Anton|Montserrat|Raleway&display=swap" rel=stylesheet>
+<title>Archana Travels</title>
+<link rel=icon href=img/logo.png type="image/icon type">
+<style>html,body{padding:0;margin:0;scroll-behavior:smooth}body ::-webkit-scrollbar-track{background-color:#f5f5f5;border-radius:10px}body::-webkit-scrollbar{width:10px;background-color:#f5f5f5}body::-webkit-scrollbar-thumb{border-radius:10px;background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.44,#1576e6),color-stop(0.72,#0d11ec),color-stop(0.86,#1576e6))}*{box-sizing:border-box}.bg1{width:100%;height:100vh}.bg1a{background-image:url('img/a.jpg');background-size:cover;background-position:center center;background-attachment:fixed;background-repeat:no-repeat}.bg1b{background-image:url('img/a1.jpg');background-size:cover;background-position:center center;background-attachment:fixed;background-repeat:no-repeat}.bg1c{background-image:url('img/b.jpg');background-size:cover;background-position:center center;background-attachment:fixed;background-repeat:no-repeat}.bg3{width:100%;height:120vh;border:solid #fff;background-image:url('img/aa.jpg');background-size:cover;background-position:center center;background-repeat:no-repeat;background-attachment:fixed;color:white}#bg5{width:100%;height:70vh;background-image:url('img/bb.jpg');background-size:cover;background-position:center center;background-repeat:no-repeat;background-attachment:fixed}#bg5 h1{font-family:'Montserrat',sans-serif}.container-table100{background:linear-gradient(-45deg,#3ba6d8,#e24f15,#db8b12,#da1212);background-size:500% 500%;animation:gradientBG 5s ease infinite;background-attachment:fixed;background-position:center center}#mybtn{width:220px;color:#000;background-color:rgba(254,211,48,1.0);transition:.5s}#mybtn1{width:220px;color:#fff;background-color:rgba(27,156,252,1.0);transition:.5s}#mybtn:hover{transition:1000;background-color:rgba(27,156,252,1.0);color:black}#mybtn1:hover{transition:1000;color:black;background-color:#edfc1b}#zbtn{font-size:30px;position:fixed;right:10px;bottom:10px;z-index:999999}#ybtn{font-size:30px;position:fixed;left:10px;bottom:10px;z-index:999999}</style>
 </head>
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="box-shadow: -1px 5px 73px -4px rgba(0,0,0,0.89);background-image: linear-gradient(15deg, #000000 0%, rgb(27, 154, 252) 100%);">
-		<a class="navbar-brand" href="#"style="font-family: 'realistica_demoregular';">Archana<span style="color:rgb(27,155,252)">Travels</span></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-		  <ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" href="about.html">About Us</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" href="tour.html">Tour Details</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link active" href="service.html">Services</a>
-			</li>
-			  <li class="nav-item">
-				<a class="nav-link active" href="contact.html">Book Now</a>
-			  </li>
-		  </ul>
-		</div>
-	  </nav>
-    <div>
-      <div class="container-fluid" style="padding-top:5%; padding-bottom:5%">
-        <h2 class="text-center effect-underline" style="padding-bottom:30px">Taxi Pakages</h2>
-        <div class="row justify-content-center">
-    
-    
-    
-                <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                    <h3 style="text-align: center">Rs.1799/-</h4>
-                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">INDIGO</h4>   
-                        <img src="img/n.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          
-                        </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                        </ul>
-                        <div class="card-body row justify-content-center">
-                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                          
-                        </div>
-                      </div>
-                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                            <h3 style="text-align: center">Rs.1899/-</h4>
-                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">SWIFT DZIRE</h4>
-                            <img src="img/i.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-       
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                  </ul>
-                                  <div class="card-body row justify-content-center">
-                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                        
-                                      </div>
-                          
-                                                  </div>
-                          <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                    <h3 style="text-align: center">Rs.1999/-</h4>
-                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">ETIOS</h4>   
-                        <img src="img/car1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          
-                        </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                        </ul>
-                        <div class="card-body row justify-content-center">
-                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                          
-                        </div>
-                      </div>
-                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                            <h3 style="text-align: center">Rs.2899/-</h4>
-                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA</h4>
-                            <img src="img/h.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-       
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                  </ul>
-                                  <div class="card-body row justify-content-center">
-                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                        
-                                      </div>
-                          
-                                                  </div>
-                       
-        </div>
-     
-    
-        <div class="row justify-content-center">
-    
-    
-    
-                <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                    <h3 style="text-align: center">Rs.5099/-</h4>
-                    <h4 class="text-center" style="background: #F7CA18; padding: 3%">INNOVA CRYSTA</h4>   
-                        <img src="img/c4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                          
-                        </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                          <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                          <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                        </ul>
-                        <div class="card-body row justify-content-center">
-                          <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                          
-                        </div>
-                      </div>
-                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                            <h3 style="text-align: center">Rs.3899/-</h4>
-                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">MARUTI ERTIGA</h4>
-                            <img src="img/m.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-       
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                  </ul>
-                                  <div class="card-body row justify-content-center">
-                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                        
-                                      </div>
-                          
-                                                  </div>
-                   
-                      <div class="card mr-4 ml-4 mb-4 bcontainer animated" id="cardz2" style="width: 18rem;">
-                            <h3 style="text-align: center">Rs.15000/-</h4>
-                                <h4 class="text-center" style="background: #F7CA18; padding: 3%">AC COACH 35 SEATER</h4>
-                            <img src="img/cc.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-       
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                  </ul>
-                                  <div class="card-body row justify-content-center">
-                                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-warning" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                        
-                                      </div>
-                          
-                                                  </div>
-                       
-        </div>
-    </div>
-
-    <div class="container-fluid" style="padding-top:5%; padding-bottom:5%">
-      <h2 class="text-center effect-underline" style="padding-bottom:30px">Tempo Travellers</h2>
-      <div class="row justify-content-center">
-  
-  
-  
-              <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                  <h3 style="text-align: center">Rs.0000/-</h4>
-                  <h4 class="text-center" style="background:rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 8 seater</h4>   
-                      <img src="img/tt8.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                        
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                        <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                        <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                      </ul>
-                      <div class="card-body row justify-content-center">
-                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                        
-                      </div>
-                    </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                      <h3 style="text-align: center">Rs.0000/-</h4>
-                      <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 9 seater</h4>   
-                          <img src="img/tt9.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                            
-                          </div>
-                          <ul class="list-group list-group-flush">
-                            <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                            <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                            <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                          </ul>
-                          <div class="card-body row justify-content-center">
-                            <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                            
-                          </div>
-                        </div>
-                        <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                          <h3 style="text-align: center">Rs.0000/-</h4>
-                          <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 10 seater</h4>   
-                              <img src="img/tt10.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                                
-                              </div>
-                              <ul class="list-group list-group-flush">
-                                <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                              </ul>
-                              <div class="card-body row justify-content-center">
-                                <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                
-                              </div>
-                            </div>
-                            <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                              <h3 style="text-align: center">Rs.0000/-</h4>
-                              <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 11 seater</h4>   
-                                  <img src="img/tt11.jpg" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                                    
-                                  </div>
-                                  <ul class="list-group list-group-flush">
-                                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                                  </ul>
-                                  <div class="card-body row justify-content-center">
-                                    <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                                    
-                                  </div>
-                                </div>
-                     
-      </div>
-   
-  
-      <div class="row justify-content-center">
-        <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-          <h3 style="text-align: center">Rs.0000/-</h4>
-          <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 12 seater</h4>   
-              <img src="img/tt12.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-              </ul>
-              <div class="card-body row justify-content-center">
-                <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                
-              </div>
-            </div>
-            <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-              <h3 style="text-align: center">Rs.0000/-</h4>
-              <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 13 seater</h4>   
-                  <img src="img/tt13.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                    
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                    <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                    <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                  </ul>
-                  <div class="card-body row justify-content-center">
-                    <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                    
-                  </div>
-                </div>
-                <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                  <h3 style="text-align: center">Rs.0000/-</h4>
-                  <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 14 seater</h4>   
-                      <img src="img/c5.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                        
-                      </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                        <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                        <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                      </ul>
-                      <div class="card-body row justify-content-center">
-                        <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                        
-                      </div>
-                    </div>
-                    <div class="card mr-4 ml-4 mb-4 bcontainer animated2" id="cardz2" style="width: 18rem;">
-                      <h3 style="text-align: center">Rs.0000/-</h4>
-                      <h4 class="text-center" style="background: rgb(0, 89, 255); padding: 3%;color: white">Tempo Traveller 15 seater</h4>   
-                          <img src="img/tt15.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title" style="text-align: center">AVAILABLE</h5>
-                            
-                          </div>
-                          <ul class="list-group list-group-flush">
-                            <li class="list-group-item" style="text-align: center"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
-                            <li class="list-group-item" style="text-align: center">Qualified Driver</li>
-                            <li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
-                          </ul>
-                          <div class="card-body row justify-content-center">
-                            <a href="contact.html" class="card-link"><button type="button" class="btn rounded-pill btn-primary" style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.363);">BOOK NOW</button></a>
-                            
-                          </div>
-                        </div>
-                     
-      </div>
-  </div>
-  
-  <div class="container-fluid bcontainer animated3" id="bg5">
-      <div class="row justify-content-center" style="padding-top: 150px; letter-spacing: 2px">
-        <h1 class="text-center" style="color:rgba(254, 211, 48,1.0);">WE ARE JUST A CLICK AWAY</h1>
-      </div>
-     
-        <div class="row justify-content-center" style=" padding-top: 5%">
-          <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"><a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill mb-4 " id="mybtn"><i class="fas fa-phone-alt"></i> 9927567531</button></a></div>
-         <div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"> <a href="tel:+91-9927567531"><button type="button " class="btn-lg rounded-pill " id="mybtn1">Book Your Cab</button></a></div>
-       
- </div>   
- </div>
-                   
-            </div>
-            <section>
-              <div class="container-fluid" id="bg6">
-                  <div class="row text-center">
-                      <div class="col-xs-12 col-md-3" id="cardz2">
-                          <div class="counter">
-                              <i class="fas fa-map-marked-alt stats-icon"></i>
-                              <h2 class="timer count-title count-number">100+</h2>
-                              <div class="stats-line-black"></div>
-                              <p class="stats-text">Cities to Visit</p>
-                          </div>
-                      </div>
-                      <div class="col-xs-12 col-md-3">
-                          <div class="counter">
-                              <i class="far fa-thumbs-up stats-icon"></i>
-                              <h2 class="timer count-title count-number">21000
-                              </h2>
-                              <div class="stats-line-black"></div>
-                              <p class="stats-text">+ Satisfied Customers</p>
-                          </div>
-                      </div>
-                      <div class="col-xs-12 col-md-3">
-                          <div class="counter">
-                              <i class="fas fa-undo-alt stats-icon"></i>
-                              <h2 class="timer count-title count-number">55</h2>
-                              <div class="stats-line-black"></div>
-                              <p class="stats-text">% Return Customers</p>
-                          </div>
-                      </div>
-                      <div class="col-xs-12 col-md-3">
-                          <div class="counter">
-                              <i class="fas fa-car stats-icon"></i>
-                              <h2 class="timer count-title count-number">32000</h2>
-                              <div class="stats-line-black"></div>
-                              <p class="stats-text">Rides Completed</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </section>
-    <div class="limiter">
-        <div class="container-table100">
-          <div class="wrap-table100">
-            <div class="table100">
-              <table>
-                <thead>
-                  <tr class="table100-head">
-                    <th class="column1 c">INDEX</th>
-                    <th class="column2 c">AC</th>
-                    <th class="column3 c">SWIFT DZIRE</th>
-                    <th class="column4 c">ERTIGA</th>
-                    <th class="column5 c">INNOVA</th>
-                    <th class="column6 c"><span>TEMPO TRAVELLER</span></th>
-                  </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                      <td class="column1">Visit To Taj Mahal and Agra Fort</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1100</td>
-                      <td class="column4">र 1400</td>
-                      <td class="column5">र 1800</td>
-                      <td class="column6">र 3000</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Visit To Fatehpur Sikri</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1400</td>
-                      <td class="column4">र 1800</td>
-                      <td class="column5">र 2000</td>
-                      <td class="column6">र 3600</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Taj Mahal, Red Fort, Fatehpur Sikri</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1600</td>
-                      <td class="column4">र 2000</td>
-                      <td class="column5">र 2400</td>
-                      <td class="column6">र 4000</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Taj Mahal, Red Fort, Edmaddaullah</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1600</td>
-                      <td class="column4">र 2000</td>
-                      <td class="column5">र 2000</td>
-                      <td class="column6">र 3800</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Arrival / Departure Transfer Local</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 500</td>
-                      <td class="column4">र 600</td>
-                      <td class="column5">र 700</td>
-                      <td class="column6">र 1000</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Tundla Pickup and Drop</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1200</td>
-                      <td class="column4">र 1400</td>
-                      <td class="column5">र 1800</td>
-                      <td class="column6">र 2500</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Mathura Railway Station Pickup/Drop</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 1600</td>
-                      <td class="column4">र 2000</td>
-                      <td class="column5">र 2500</td>
-                      <td class="column6">र 3300</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Agra to delhi Drop</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 3000</td>
-                      <td class="column4">र 4000</td>
-                      <td class="column5">र 4500</td>
-                      <td class="column6">र 8000</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Agra to Jaipur Drop via Fatehpur Sikri</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 3800</td>
-                      <td class="column4">र 8400</td>
-                      <td class="column5">र 5600</td>
-                      <td class="column6">र 11000</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Sameday Visit To Mathura Vrindavan</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 2000</td>
-                      <td class="column4">र 2500</td>
-                      <td class="column5">र 3000</td>
-                      <td class="column6">र 5500</td>
-                    </tr>
-                    <tr>
-                      <td class="column1">Mathura Vindravan, Fatehpur Sikri</td>
-                      <td class="column2">Avalable</td>
-                      <td class="column3">र 2400</td>
-                      <td class="column4">र 3000</td>
-                      <td class="column5">र 3400</td>
-                      <td class="column6">र 6500</td>
-                    </tr>
-                  </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid" id="1" >
-          <div class="container">
-              <div class="row justify-content-center text-center" style="padding-top: 8%">
-                  <h2 class="effect-underline">Taxi Services Photo Gallery</h2>
-                </div>
-                 <div class="row justify-content-center" style="padding-top: 5%">
-                   
-                        <div class="col-lg-4 col-md-6 mb-4" id="cardz1" >
-                          <img src="img/car1.jpg" class="card-img-top" alt="...">
-                          
-                        </div>
-                        <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                          <img src="img/car2.png" class="card-img-top" alt="...">
-                          
-                        </div>
-                        <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                          <img src="img/car3.png" class="card-img-top" alt="...">
-                          
-                        </div>
-                      
-                 </div>
-                 <div class="row justify-content-center" style="padding-bottom: 8%">
-                    
-                  <div class="col-lg-4 col-md-6 mb-4" id="cardz1">
-                    <img src="img/m.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                  <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                    <img src="img/n.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                  <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                    <img src="img/i.jpg" class="card-img-top" alt="...">
-                    
-                  </div>
-                     
-                 </div>
-                 <div class="row justify-content-center" style="padding-bottom: 8%">
-                    
-                    <div class="col-lg-4 col-md-6 mb-4" id="cardz1">
-                      <img src="img/j.jpg" class="card-img-top" alt="...">
-                      
-                    </div>
-                    <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                      <img src="img/c4.jpg" class="card-img-top" alt="...">
-                      
-                    </div>
-                    <div class="col-lg-4  col-md-6 mb-4" id="cardz1">
-                      <img src="img/tt11.jpg" class="card-img-top" alt="...">
-                      
-                    </div>
-                       
-                   </div>
-          </div>
-        </div>
-       <div >
-       <div class="container-fluid gradiant1" style="padding-top:5%;">
-        <h1 class="text-center effect-underline2" style="margin-bottom:5%;color: #fff;">Our Office</h1>
-         <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.3514428510725!2d78.04312961495305!3d27.145230556576532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747169c1b479c5%3A0x20a53d40be77c705!2sChamrauli+Rd%2C+Rajpur+Chungi%2C+Indrapuram%2C+Kaveri+Vihar+Phase+II%2C+Shamsabad%2C+Agra%2C+Uttar+Pradesh+282001!5e0!3m2!1sen!2sin!4v1565879491662!5m2!1sen!2sin" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
-          
-         </div>
-        </div>  
- <div class="myfoot ">
-              <!-- FOOTER START -->
-            <div class="footer">
-              <div class="contain">
-              <div class="col">
-                <h1>Archana Travels</h1>
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Book Now</a></li>
-                  <li><a href="service.html">Service</a></li>
-                </ul>
-              </div>
-              <div class="col">
-                <h1>Services</h1>
-                <ul>
-                  <li><a href="tour.html">Tour Service</a></li>
-                  <li><a href="booking.html">Car Service</a></li>
-                </ul>
-              </div>
-              <div class="col">
-                <h1>Tour Service</h1>
-                <ul>
-                  <li><a href="tour.html">Packages</a></li>
-                </ul>
-              </div>
-              <div class="col">
-                  <h1>Whatsapp</h1>
-                  <ul>
-                    <li><a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2); font-size: 30px"></i></a></li>
-                  </ul>
-                </div>
-              <div class="col">
-                <h1>Contact</h1>
-                <ul>
-                  <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
-                  <li><a href="tel:+91-9927567531"><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
-                  <li><a href="https://www.kishansharma.sharma65@gmail.com"><i class="fas fa-envelope"></i> Mail</a></li>
-                </ul>
-              </div>
-              <div class="col social">
-                <h1>Social links</h1>
-                <ul>
-                  <li><a href="https://www.facebook.com/kishan.sharma.3998263"><i class="fab fa-facebook-f" style="font-size: 25px"></i></a></li>
-                  <li> <a href="https://twitter.com/kishansharma65?s=08"><i class="fab fa-twitter" style="font-size: 25px"></i></a></li>
-                  <li><a href=" https://instagram.com/KISHAN.SHARMA.3998263"><i class="fab fa-instagram" style="font-size: 25px"></i></a></li>
-                </ul>
-              </div>
-            <div class="clearfix"></div>
-            </div>
-            </div>
-            <!-- END OF FOOTER -->
-            </div>
-            <button id="zbtn">
-              <a href="#" id="tbtn"><i class="fas fa-chevron-circle-up"></i></a>
-           </button>
-         </div>
-         <div>
-             <button id="ybtn">
-                 <a href="https://wa.me/919027619344/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style="color: rgb(2, 163, 2)"></i></a>
-                 
-             </button>
-           </div>
-       
-<script src="js/form.js"></script>  
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="box-shadow:-1px 5px 73px -4px rgba(0,0,0,0.89);background-image:linear-gradient(15deg,#000000 0,#1b9afc 100%)">
+<a class=navbar-brand href="#"style="font-family: 'realistica_demoregular';"> <img src=img/logo.png alt style=height:40px;width:40px> Archana<span style=color:rgb(27,155,252)>Travels</span></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id=navbarNav>
+<ul class=navbar-nav>
+<li class="nav-item active">
+<a class=nav-link href=index.html>Home <span class=sr-only>(current)</span></a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=about.html>About Us</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=tour.html>Tour Details</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=service.html>Services</a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=contact.html>Book Now</a>
+</li>
+<li class=nav-item>
+<div id=google_translate_element></div>
+</li>
+</ul>
+</div>
+</nav>
+<div>
+<div class=container-fluid style=padding-top:5%;padding-bottom:5%>
+<h2 class="text-center effect-underline" style=padding-bottom:30px>Taxi Pakages</h2>
+<div class="row justify-content-center">
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.1799/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>INDIGO</h4>
+<img src=img/n.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.1899/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>SWIFT DZIRE</h4>
+<img src=img/i.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.1999/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>ETIOS</h4>
+<img src=img/car1.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.2899/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>INNOVA</h4>
+<img src=img/h.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.5099/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>INNOVA CRYSTA</h4>
+<img src=img/c4.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.3899/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>MARUTI ERTIGA</h4>
+<img src=img/m.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.15000/-</h4>
+<h4 class=text-center style=background:#f7ca18;padding:3%>AC COACH 35 SEATER</h4>
+<img src=img/cc.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-warning" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+</div>
+</div>
+<div class=container-fluid style=padding-top:5%;padding-bottom:5%>
+<h2 class="text-center effect-underline" style=padding-bottom:30px>Tempo Travellers</h2>
+<div class="row justify-content-center">
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 8 seater</h4>
+<img src=img/tt8.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 9 seater</h4>
+<img src=img/tt9.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 10 seater</h4>
+<img src=img/tt10.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 11 seater</h4>
+<img src=img/tt11.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 12 seater</h4>
+<img src=img/tt12.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 13 seater</h4>
+<img src=img/tt13.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 14 seater</h4>
+<img src=img/c5.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+<div class="card mr-4 ml-4 mb-4 bcontainer animated2" id=cardz2 style=width:18rem>
+<h3 style=text-align:center>Rs.0000/-</h4>
+<h4 class=text-center style=background:#0059ff;padding:3%;color:white>Tempo Traveller 15 seater</h4>
+<img src=img/tt15.jpg class=card-img-top alt=...>
+<div class=card-body>
+<h5 class=card-title style=text-align:center>AVAILABLE</h5>
+</div>
+<ul class="list-group list-group-flush">
+<li class=list-group-item style=text-align:center><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+<li class=list-group-item style=text-align:center>Qualified Driver</li>
+<li class="list-group-item text-center"><i class="fas fa-check-circle"></i> AC AVAILABLE</li>
+</ul>
+<div class="card-body row justify-content-center">
+<a href=contact.html class=card-link><button type=button class="btn rounded-pill btn-primary" style="box-shadow:0 8px 15px rgba(0,0,0,0.363)">BOOK NOW</button></a>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid bcontainer animated3" id=bg5>
+<div class="row justify-content-center" style=padding-top:150px;letter-spacing:2px>
+<h1 class=text-center style=color:rgba(254,211,48,1.0)>WE ARE JUST A CLICK AWAY</h1>
+</div>
+<div class="row justify-content-center" style=padding-top:5%>
+<div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"><a href=tel:+91-9927567531><button type="button " class="btn-lg rounded-pill mb-4" id=mybtn><i class="fas fa-phone-alt"></i> 9927567531</button></a></div>
+<div class="col-lg-2 col-sm-12 col-xs-12 col-md-12 text-center"> <a href=tel:+91-9927567531><button type="button " class="btn-lg rounded-pill" id=mybtn1>Book Your Cab</button></a></div>
+</div>
+</div>
+</div>
+<section>
+<div class=container-fluid id=bg6>
+<div class="row text-center">
+<div class="col-xs-12 col-md-3" id=cardz2>
+<div class=counter>
+<i class="fas fa-map-marked-alt stats-icon"></i>
+<h2 class="timer count-title count-number">100+</h2>
+<div class=stats-line-black></div>
+<p class=stats-text>Cities to Visit</p>
+</div>
+</div>
+<div class="col-xs-12 col-md-3">
+<div class=counter>
+<i class="far fa-thumbs-up stats-icon"></i>
+<h2 class="timer count-title count-number">21000
+</h2>
+<div class=stats-line-black></div>
+<p class=stats-text>+ Satisfied Customers</p>
+</div>
+</div>
+<div class="col-xs-12 col-md-3">
+<div class=counter>
+<i class="fas fa-undo-alt stats-icon"></i>
+<h2 class="timer count-title count-number">55</h2>
+<div class=stats-line-black></div>
+<p class=stats-text>% Return Customers</p>
+</div>
+</div>
+<div class="col-xs-12 col-md-3">
+<div class=counter>
+<i class="fas fa-car stats-icon"></i>
+<h2 class="timer count-title count-number">32000</h2>
+<div class=stats-line-black></div>
+<p class=stats-text>Rides Completed</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class=limiter>
+<div class=container-table100>
+<div class=wrap-table100>
+<div class=table100>
+<table>
+<thead>
+<tr class=table100-head>
+<th class="column1 c">INDEX</th>
+<th class="column2 c">AC</th>
+<th class="column3 c">SWIFT DZIRE</th>
+<th class="column4 c">ERTIGA</th>
+<th class="column5 c">INNOVA</th>
+<th class="column5 c"><span>TEMPO<br>TRAVELLER</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=column1>Visit To Taj Mahal and Agra Fort</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1100</td>
+<td class=column4>र 1400</td>
+<td class=column5>र 1800</td>
+<td class=column5>र 3000</td>
+</tr>
+<tr>
+<td class=column1>Visit To Fatehpur Sikri</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1400</td>
+<td class=column4>र 1800</td>
+<td class=column5>र 2000</td>
+<td class=column5>र 3600</td>
+</tr>
+<tr>
+<td class=column1>Taj Mahal, Red Fort, Fatehpur Sikri</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1600</td>
+<td class=column4>र 2000</td>
+<td class=column5>र 2400</td>
+<td class=column5>र 4000</td>
+</tr>
+<tr>
+<td class=column1>Taj Mahal, Red Fort, Edmaddaullah</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1600</td>
+<td class=column4>र 2000</td>
+<td class=column5>र 2000</td>
+<td class=column5>र 3800</td>
+</tr>
+<tr>
+<td class=column1>Arrival / Departure Transfer Local</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 500</td>
+<td class=column4>र 600</td>
+<td class=column5>र 700</td>
+<td class=column5>र 1000</td>
+</tr>
+<tr>
+<td class=column1>Tundla Pickup and Drop</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1200</td>
+<td class=column4>र 1400</td>
+<td class=column5>र 1800</td>
+<td class=column5>र 2500</td>
+</tr>
+<tr>
+<td class=column1>Mathura Railway Station Pickup/Drop</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 1600</td>
+<td class=column4>र 2000</td>
+<td class=column5>र 2500</td>
+<td class=column5>र 3300</td>
+</tr>
+<tr>
+<td class=column1>Agra to delhi Drop</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 3000</td>
+<td class=column4>र 4000</td>
+<td class=column5>र 4500</td>
+<td class=column5>र 8000</td>
+</tr>
+<tr>
+<td class=column1>Agra to Jaipur Drop via Fatehpur Sikri</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 3800</td>
+<td class=column4>र 8400</td>
+<td class=column5>र 5600</td>
+<td class=column5>र 11000</td>
+</tr>
+<tr>
+<td class=column1>Sameday Visit To Mathura Vrindavan</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 2000</td>
+<td class=column4>र 2500</td>
+<td class=column5>र 3000</td>
+<td class=column5>र 5500</td>
+</tr>
+<tr>
+<td class=column1>Mathura Vindravan, Fatehpur Sikri</td>
+<td class=column2>Avalable</td>
+<td class=column3>र 2400</td>
+<td class=column4>र 3000</td>
+<td class=column5>र 3400</td>
+<td class=column5>र 6500</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class=container-fluid id=1>
+<div class=container>
+<div class="row justify-content-center text-center" style=padding-top:8%>
+<h2 class="effect-underline wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s>Taxi Services Photo Gallery</h2>
+</div>
+<div class="row justify-content-center" style=padding-top:5%>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/car1.jpg class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/car2.png class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/car3.png class=card-img-top alt=...>
+</div>
+</div>
+<div class="row justify-content-center" style=padding-bottom:8%>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/m.jpg class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/n.jpg class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/i.jpg class=card-img-top alt=...>
+</div>
+</div>
+<div class="row justify-content-center" style=padding-bottom:8%>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/j.jpg class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/c4.jpg class=card-img-top alt=...>
+</div>
+<div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-iteration=1 data-wow-delay=0.5s id=cardz1>
+<img src=img/tt11.jpg class=card-img-top alt=...>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="container-fluid gradiant1" style=padding-top:5%>
+<h1 class="text-center effect-underline2" style=margin-bottom:5%;color:#fff>Our Office</h1>
+<div class=row>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.3514428510725!2d78.04312961495305!3d27.145230556576532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747169c1b479c5%3A0x20a53d40be77c705!2sChamrauli+Rd%2C+Rajpur+Chungi%2C+Indrapuram%2C+Kaveri+Vihar+Phase+II%2C+Shamsabad%2C+Agra%2C+Uttar+Pradesh+282001!5e0!3m2!1sen!2sin!4v1565879491662!5m2!1sen!2sin" width=100% height=320 frameborder=0 style=border:0 allowfullscreen></iframe>
+</div>
+</div>
+<div class=myfoot>
+<div class=footer>
+<div class=contain>
+<div class=col>
+<h1>Archana Travels</h1>
+<ul>
+<li><a href=index.html>Home</a></li>
+<li><a href=about.html>About Us</a></li>
+<li><a href=contact.html>Book Now</a></li>
+<li><a href=service.html>Service</a></li>
+</ul>
+</div>
+<div class=col>
+<h1>Services</h1>
+<ul>
+<li><a href=tour.html>Tour Service</a></li>
+<li><a href=booking.html>Car Service</a></li>
+</ul>
+</div>
+<div class=col>
+<h1>Tour Service</h1>
+<ul>
+<li><a href=tour.html>Packages</a></li>
+</ul>
+</div>
+<div class=col>
+<h1>Whatsapp</h1>
+<ul>
+<li><a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style=color:#02a302;font-size:30px></i></a></li>
+</ul>
+</div>
+<div class=col>
+<h1>Contact</h1>
+<ul>
+<li><a href=tel:+91-9927567531><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
+<li><a href=tel:+91-9927567531><i class="fas fa-phone-alt"></i> +91-9927567531</a></li>
+</ul>
+</div>
+<div class="col social">
+<h1>Social links</h1>
+<ul>
+<li><a href=https://www.facebook.com/kishan.sharma.3998263><i class="fab fa-facebook-f" style=font-size:25px></i></a></li>
+<li> <a href="https://twitter.com/kishansharma65?s=08"><i class="fab fa-twitter" style=font-size:25px></i></a></li>
+<li><a href=" https://instagram.com/KISHAN.SHARMA.3998263"><i class="fab fa-instagram" style=font-size:25px></i></a></li>
+</ul>
+</div>
+<div class=clearfix></div>
+</div>
+</div>
+<p style=color:#666;text-align:center>All CopyRight &copy; 2019 Reserved By <a href=https://sunshine-web.business.site>SunShine</a></p>
+</div>
+<button id=zbtn>
+<a href=# id=tbtn><i class="fas fa-chevron-circle-up"></i></a>
+</button>
+</div>
+<div>
+<button id=ybtn>
+<a href="https://wa.me/919927567531/?text=Hi Sam, Whatsup"><i class="fab fa-whatsapp-square" style=color:#02a302></i></a>
+</button>
+</div>
+</div>
+<script src=js/form.js></script>
+<script src=js/wow.js></script>
+<script>new WOW().init();</script>
+<script>function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en"},"google_translate_element")};</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src=https://code.jquery.com/jquery-3.3.1.slim.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
 </body>
-
 </html>
